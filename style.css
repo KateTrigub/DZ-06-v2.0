@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+    padding-top: 79px;
+    padding-bottom: 141px;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 42px;
+}
+
+.link.active,
+.link:hover {
+    color:#34547A;
+    font-weight: 500;
+}
+
+.navigation {
+    margin-bottom: 160px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 45px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 540px; 
+    margin-bottom: 54px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: top;
+    background-color: #34547A;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 19px 41px 20px 41px;
+
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.description.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about {
+    padding-top: 112px;
+    padding-bottom: 89px;
+    background-color: #f9f9f9;
+}
+
+.about .description {
+    margin-bottom: 0;
+}
+
+.cards {
+    background-color: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.card-info {
+    display: inline-block;
+    vertical-align: top;
+    color: #FFFFFF;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+}
+
+.card-description {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 49px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.video {
+    display: block;
+    width: 1110px;
+    height: 600px;
+}
+
+.howto {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EEEFF1
+}
+
+.howto .description {
+    margin-bottom: 46px;
+}
+
+.footer {
+    background-color: #34547A;
+    padding-top: 50px;
+    padding-bottom: 47px;
+    color: #FFFFFF;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 15px;
+}
